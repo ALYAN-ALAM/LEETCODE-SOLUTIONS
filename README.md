@@ -2,8 +2,6 @@
 
 ## LeetCode Solutions in JavaScript
 
-![LeetCode Logo](https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b61e.png)
-
 This repository contains my solutions to various LeetCode problems, all implemented in JavaScript. If you're preparing for coding interviews or just want to sharpen your algorithm and data structure skills, this repository can serve as a valuable resource.
 
 Please note that while these solutions are provided to help you learn and understand different problem-solving approaches, it's important to solve problems on your own first. LeetCode is a great platform for practicing coding and algorithmic challenges.
