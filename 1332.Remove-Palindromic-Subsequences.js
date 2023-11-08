@@ -6,3 +6,25 @@
 
 // A string is called palindrome if is one that reads the same backward as well as forward.
 
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var removePalindromeSub = function(s) {
+    let left = 0
+    let right =s.length -1
+  
+  
+    while(left<right){
+     
+        if(s[left]==s[right]){
+              left++
+              right--
+        }
+        else{
+          return 2
+        }
+  
+    }
+      return 1
+  };
