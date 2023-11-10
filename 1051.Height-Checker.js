@@ -4,4 +4,19 @@
 
 // Return the number of indices where heights[i] != expected[i].
 
- 
+ /**
+ * @param {number[]} heights
+ * @return {number}
+ */
+var heightChecker = function(heights) {
+    let origin = [...heights]
+    let sortedHeights = origin.sort((a, b) => a - b);
+    let total = 0
+
+    for(let i=0;i<heights.length;i++){
+        if(heights[i]!==sortedHeights[i]){
+            total++
+        }
+    }
+    return total
+};
