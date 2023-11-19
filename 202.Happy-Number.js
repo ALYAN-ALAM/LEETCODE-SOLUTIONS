@@ -6,3 +6,21 @@
 // Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
 // Those numbers for which this process ends in 1 are happy.
 // Return true if n is a happy number, and false if not.
+
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var isHappy = function(n) {
+    let seen = new Set()
+    
+    while(n!==1 && !seen.has(n)){
+    seen.add(n)
+    let numberString = n.toString()
+    let digits = numberString.split("")
+    n = digits.reduce((sum,digit) => sum+Math.pow(parseInt(digit),2),0)
+
+    }
+
+    return n === 1
+};
