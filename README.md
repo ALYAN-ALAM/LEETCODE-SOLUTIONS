@@ -12,25 +12,14 @@ Please note that while these solutions are provided to help you learn and unders
   - [LeetCode Solutions in JavaScript](#leetcode-solutions-in-javascript)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
-  - [Directory Structure](#directory-structure)
   - [Contributing](#contributing)
   - [License](#license)
 
 ## Getting Started
 
-To use this repository, simply browse the folders and find the problem you're interested in. Each problem has its own folder and includes a JavaScript file with the solution and, if available, a markdown file with a detailed explanation of the problem and solution.
+To use this repository, simply find the problem you're interested in. Each problem has its own JavaScript file with a explanation of the problem and solution.
 
 You can either clone the repository and run the JavaScript code locally or copy the code directly from the respective problem's file.
-
-## Directory Structure
-
-The repository is organized into folders, each corresponding to a LeetCode problem. Within each problem folder, you'll find the following:
-
-- `README.md`: A detailed explanation of the problem, including the problem statement, example inputs and outputs, and a breakdown of the solution.
-
-- `solution.js`: The JavaScript code that solves the problem. The code is thoroughly commented to explain the thought process and logic behind the solution.
-
-Feel free to navigate through the folders and explore the solutions. If you can't find a specific problem or have a better solution, consider contributing!
 
 ## Contributing
 
