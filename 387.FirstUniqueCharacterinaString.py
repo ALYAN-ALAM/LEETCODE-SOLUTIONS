@@ -22,15 +22,15 @@ class Solution(object):
         return -1
     
 # Solution 02:
-dict1 = {}
-        for c in s:
-            if c in dict1:
-                dict1[c] += 1
-            else:
-                dict1[c] = 1
+        # dict1 = {}
+        # for c in s:
+        #     if c in dict1:
+        #         dict1[c] += 1
+        #     else:
+        #         dict1[c] = 1
 
-        for i,c in enumerate(s):
-            if dict1[c] == 1:
-                return i
+        # for i,c in enumerate(s):
+        #     if dict1[c] == 1:
+        #         return i
 
-        return -1
+        # return -1
